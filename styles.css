@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+    color: white;
+    background-color: #1f2937;
+    padding-bottom: 20px;
+    /* height: 40%; */
+}
+
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right > ul {
+    list-style-type: none;
+    column-count: 3;
+}
+
+.placeholder {
+    width: 300px;
+    object-fit: cover;
+
+}
+.header-bottom {
+    display: flex;
+    
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+    /* margin-left:200px;
+    margin-right: 200px; */
+    
+    
+}
+
+
+.header-bottom > .left {
+    
+    width: 300px;
+
+}
+
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.elem {
+    width: 130px;
+}
+.elem > img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main-two {
+    background-color: #e5e7eb;
+    padding:  0 30%;
+}
+
+.main-two > p {
+    /* margin: 0  100px; */
+    text-align:justify;
+    font-size: 1.5rem;
+    /* width: 80%; */
+}
+
+.main-two > h3 {
+
+     /* outline: 1px solid red; */
+     text-align: end;
+
+}
+
+.main-three{
+    height: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight {
+    background-color: #3882f6;
+    height: 50%;
+    color: white;
+    width: 80%;
+    border-radius: 10px;
+    /* padding: 50px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.down-button {
+    font-size: 1rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.up-button {
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
